@@ -1,134 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T05:59:51.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="nAKDcm8DFa906Vjrylsj" version="15.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-28T07:50:05.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="Qi7cNchWtRzEsjkvRLu9" version="15.6.1" type="github">
   <diagram id="NdHaQMPTZdFyBWGNYXG-" name="Page-1">
-    <mxGraphModel dx="2331" dy="1853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-1" value=":AgentBizImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="10" width="90" height="510" as="geometry" />
+        <mxCell id="dYx5d5h4FoRbj9BoUWSS-1" value=":AgentServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="30" width="100" height="490" as="geometry" />
         </mxCell>
         <mxCell id="dYx5d5h4FoRbj9BoUWSS-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dYx5d5h4FoRbj9BoUWSS-1">
-          <mxGeometry x="40" y="100" width="10" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-9" value="GetAgentConfig()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="dYx5d5h4FoRbj9BoUWSS-1" target="dYx5d5h4FoRbj9BoUWSS-6">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="50" y="110" as="sourcePoint" />
-            <mxPoint x="130" y="110" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="40" y="70" width="10" height="270" as="geometry" />
         </mxCell>
         <mxCell id="dYx5d5h4FoRbj9BoUWSS-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dYx5d5h4FoRbj9BoUWSS-1">
-          <mxGeometry x="45" y="190" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="110" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dYx5d5h4FoRbj9BoUWSS-13" value="CreateAgentWorkHandler()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dYx5d5h4FoRbj9BoUWSS-12" parent="dYx5d5h4FoRbj9BoUWSS-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="170" as="sourcePoint" />
+            <mxPoint x="50" y="90" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="170" />
+              <mxPoint x="80" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dYx5d5h4FoRbj9BoUWSS-14" value="::AgentWorkHandler" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;whiteSpace=wrap" edge="1" parent="dYx5d5h4FoRbj9BoUWSS-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50.00000000000023" y="230" as="sourcePoint" />
+            <mxPoint x="50.00000000000023" y="150" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="230" />
-              <mxPoint x="80" y="250" />
+              <mxPoint x="80" y="150" />
+              <mxPoint x="80" y="170" />
             </Array>
-            <mxPoint x="50" y="250" as="targetPoint" />
+            <mxPoint x="50" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dYx5d5h4FoRbj9BoUWSS-1">
-          <mxGeometry x="45" y="300" width="10" height="40" as="geometry" />
+        <mxCell id="dYx5d5h4FoRbj9BoUWSS-56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dYx5d5h4FoRbj9BoUWSS-1">
+          <mxGeometry x="45" y="290" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-27" value="CreateAgentExecutor" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dYx5d5h4FoRbj9BoUWSS-26" parent="dYx5d5h4FoRbj9BoUWSS-1">
+        <mxCell id="dYx5d5h4FoRbj9BoUWSS-57" value="insert or update data to db" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dYx5d5h4FoRbj9BoUWSS-56" parent="dYx5d5h4FoRbj9BoUWSS-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="281" as="sourcePoint" />
+            <mxPoint x="49" y="280" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="281" />
-              <mxPoint x="80" y="300" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-28" value="::AgentExecutor" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;whiteSpace=wrap" edge="1" parent="dYx5d5h4FoRbj9BoUWSS-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50.00000000000023" y="340" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="80" y="340" />
-              <mxPoint x="80" y="360" />
-            </Array>
-            <mxPoint x="50.00000000000023" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-29" value="execute(AgentWorkHandler workHandler)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="dYx5d5h4FoRbj9BoUWSS-1" target="dYx5d5h4FoRbj9BoUWSS-15">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="50" y="380" as="sourcePoint" />
-            <mxPoint x="130" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="-10" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-115" y="510.6667073567708" as="sourcePoint" />
-            <mxPoint x="-115.42" y="80" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-5" value="deploy agent" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="dYx5d5h4FoRbj9BoUWSS-1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-110" y="110" as="sourcePoint" />
-            <mxPoint x="-30" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-6" value=":TsccAgentConfigServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="10" width="160" height="510" as="geometry" />
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dYx5d5h4FoRbj9BoUWSS-6">
-          <mxGeometry x="75" y="110" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-11" value="::TsccAgentConfig" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="dYx5d5h4FoRbj9BoUWSS-6" target="dYx5d5h4FoRbj9BoUWSS-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="150" as="sourcePoint" />
-            <mxPoint y="150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-15" value=":AgentExecutor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="10" width="460" height="570" as="geometry" />
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-39" value="work(TsccAgentConfig agentConfig)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="dYx5d5h4FoRbj9BoUWSS-15" target="dYx5d5h4FoRbj9BoUWSS-17">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="230" y="390" as="sourcePoint" />
-            <mxPoint x="310" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dYx5d5h4FoRbj9BoUWSS-15">
-          <mxGeometry x="225" y="380" width="10" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dYx5d5h4FoRbj9BoUWSS-15">
-          <mxGeometry x="230" y="450" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-46" value="insert data to db" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dYx5d5h4FoRbj9BoUWSS-45" parent="dYx5d5h4FoRbj9BoUWSS-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="235" y="430" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="265" y="430" />
+              <mxPoint x="79" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dYx5d5h4FoRbj9BoUWSS-17" value=":AgentWorkHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="10" width="120" height="570" as="geometry" />
+          <mxGeometry x="280" y="30" width="120" height="480" as="geometry" />
         </mxCell>
         <mxCell id="dYx5d5h4FoRbj9BoUWSS-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dYx5d5h4FoRbj9BoUWSS-17">
-          <mxGeometry x="55" y="390" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="dYx5d5h4FoRbj9BoUWSS-42" value="::TsccAgentResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="dYx5d5h4FoRbj9BoUWSS-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1500" y="420" as="sourcePoint" />
-            <mxPoint x="930" y="420" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="55" y="235" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dYx5d5h4FoRbj9BoUWSS-54" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="270" width="600" height="290" as="geometry" />
+          <mxGeometry x="-40" y="220" width="420" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dYx5d5h4FoRbj9BoUWSS-29" value="work()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="dYx5d5h4FoRbj9BoUWSS-7">
+          <mxGeometry y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="20" y="260" as="sourcePoint" />
+            <mxPoint x="340" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYx5d5h4FoRbj9BoUWSS-55" value="::TsccAgentResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="dYx5d5h4FoRbj9BoUWSS-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="290" as="sourcePoint" />
+            <mxPoint x="250" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
