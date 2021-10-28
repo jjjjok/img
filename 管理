@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T12:20:55.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="SM7yuBz9lfMwzF0N9M0L" version="15.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-28T12:56:20.248Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="x8unHolqGLFxowT9W2bK" version="15.6.1" type="github">
   <diagram id="RZNi20rTqcwTpZ6XkP1r" name="Page-1">
-    <mxGraphModel dx="1708" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
             <mxPoint x="-185.34" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O3loq960kx7oj_ujVzjf-4" value=":SccAgentServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="O3loq960kx7oj_ujVzjf-4" value=":TSccAgentServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="60" width="120" height="340" as="geometry" />
         </mxCell>
         <mxCell id="O3loq960kx7oj_ujVzjf-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O3loq960kx7oj_ujVzjf-4">
@@ -40,7 +40,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O3loq960kx7oj_ujVzjf-16" value=":SccAgentController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="O3loq960kx7oj_ujVzjf-16" value=":TSccAgentController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-60" y="60" width="120" height="340" as="geometry" />
         </mxCell>
         <mxCell id="O3loq960kx7oj_ujVzjf-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O3loq960kx7oj_ujVzjf-16">
@@ -99,7 +99,7 @@
             <mxPoint x="444.6600000000001" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O3loq960kx7oj_ujVzjf-59" value=":SccAgentServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="O3loq960kx7oj_ujVzjf-59" value=":TSccAgentServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="760" y="80" width="120" height="340" as="geometry" />
         </mxCell>
         <mxCell id="O3loq960kx7oj_ujVzjf-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O3loq960kx7oj_ujVzjf-59">
@@ -126,7 +126,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O3loq960kx7oj_ujVzjf-64" value=":SccAgentController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="O3loq960kx7oj_ujVzjf-64" value=":TSccAgentController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="80" width="120" height="340" as="geometry" />
         </mxCell>
         <mxCell id="O3loq960kx7oj_ujVzjf-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O3loq960kx7oj_ujVzjf-64">
@@ -175,6 +175,92 @@
         </mxCell>
         <mxCell id="O3loq960kx7oj_ujVzjf-74" value="result" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="505" y="374.31" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-75" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-76" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1135" y="439.9999999999999" as="sourcePoint" />
+            <mxPoint x="1134.6599999999999" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-77" value=":TSccAgentServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="110" width="120" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O3loq960kx7oj_ujVzjf-77">
+          <mxGeometry x="55" y="110" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-79" value="searchService()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="O3loq960kx7oj_ujVzjf-77" target="O3loq960kx7oj_ujVzjf-86">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="65" y="200" as="sourcePoint" />
+            <mxPoint x="135" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-80" value="&amp;nbsp;List&amp;lt;TSccAgentResult&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="O3loq960kx7oj_ujVzjf-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="280" as="sourcePoint" />
+            <mxPoint x="60" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-81" value="search()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.093;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="O3loq960kx7oj_ujVzjf-83">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1140" y="211" as="sourcePoint" />
+            <mxPoint x="1300" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1270" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-82" value=":TSccAgentController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="110" width="120" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-83" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O3loq960kx7oj_ujVzjf-82">
+          <mxGeometry x="55" y="100" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-84" value="searchController()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="O3loq960kx7oj_ujVzjf-82" target="O3loq960kx7oj_ujVzjf-77">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="65" y="110" as="sourcePoint" />
+            <mxPoint x="170" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-85" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.093;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="O3loq960kx7oj_ujVzjf-82" source="O3loq960kx7oj_ujVzjf-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140.19" y="279.3099999999999" as="sourcePoint" />
+            <mxPoint x="-130" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-86" value=":AgentDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1633" y="110" width="100" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O3loq960kx7oj_ujVzjf-86">
+          <mxGeometry x="45" y="200" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O3loq960kx7oj_ujVzjf-86">
+          <mxGeometry x="50" y="230" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-89" value="search()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="O3loq960kx7oj_ujVzjf-86" target="O3loq960kx7oj_ujVzjf-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-90" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.052;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="O3loq960kx7oj_ujVzjf-78" target="O3loq960kx7oj_ujVzjf-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="390" as="sourcePoint" />
+            <mxPoint x="1390" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1330" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-91" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;List&amp;lt;TSccAgentResult&amp;gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="389.31" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-92" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;List&amp;lt;TSccAgentResult&amp;gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="404.31" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
