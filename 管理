@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T13:02:24.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="Nt4I_D5I2Y0PudI57AK0" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T12:47:54.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="Q3CUCo_43dEY1lhGTVwa" version="15.6.8" type="github">
   <diagram id="RZNi20rTqcwTpZ6XkP1r" name="Page-1">
-    <mxGraphModel dx="238" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="54" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ik49EklRHGP6s_lhe35--1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="50" width="800" height="480" as="geometry" />
-        </mxCell>
         <mxCell id="O3loq960kx7oj_ujVzjf-75" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="80" width="30" height="60" as="geometry" />
         </mxCell>
@@ -16,52 +13,31 @@
             <mxPoint x="1134.6599999999999" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O3loq960kx7oj_ujVzjf-77" value=":TSccAgentServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1450" y="110" width="120" height="340" as="geometry" />
+        <mxCell id="O3loq960kx7oj_ujVzjf-77" value="&lt;b&gt;:TSccAgentServiceImpl&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFCC99;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="110" width="140" height="340" as="geometry" />
         </mxCell>
         <mxCell id="O3loq960kx7oj_ujVzjf-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="O3loq960kx7oj_ujVzjf-77" vertex="1">
-          <mxGeometry x="55" y="110" width="10" height="190" as="geometry" />
+          <mxGeometry x="65" y="110" width="10" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="O3loq960kx7oj_ujVzjf-79" value="search()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="O3loq960kx7oj_ujVzjf-77" target="O3loq960kx7oj_ujVzjf-86" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="65" y="200" as="sourcePoint" />
-            <mxPoint x="135" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="O3loq960kx7oj_ujVzjf-80" value="&amp;nbsp;List&amp;lt;TSccAgentResult&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="O3loq960kx7oj_ujVzjf-77" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="280" as="sourcePoint" />
-            <mxPoint x="60" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="O3loq960kx7oj_ujVzjf-81" value="search()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.093;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="O3loq960kx7oj_ujVzjf-83" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1140" y="211" as="sourcePoint" />
-            <mxPoint x="1300" y="210" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1270" y="210" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="O3loq960kx7oj_ujVzjf-82" value=":TSccAgentController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1260" y="110" width="120" height="340" as="geometry" />
+        <mxCell id="O3loq960kx7oj_ujVzjf-82" value="&lt;b&gt;:TSccAgentController&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFCC99;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="110" width="130" height="340" as="geometry" />
         </mxCell>
         <mxCell id="O3loq960kx7oj_ujVzjf-83" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="O3loq960kx7oj_ujVzjf-82" vertex="1">
-          <mxGeometry x="55" y="100" width="10" height="220" as="geometry" />
+          <mxGeometry x="60" y="100" width="10" height="220" as="geometry" />
         </mxCell>
         <mxCell id="O3loq960kx7oj_ujVzjf-84" value="search()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="O3loq960kx7oj_ujVzjf-82" target="O3loq960kx7oj_ujVzjf-77" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="65" y="110" as="sourcePoint" />
+            <mxPoint x="70" y="110" as="sourcePoint" />
             <mxPoint x="170" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="O3loq960kx7oj_ujVzjf-85" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.093;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" parent="O3loq960kx7oj_ujVzjf-82" source="O3loq960kx7oj_ujVzjf-83" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140.19" y="279.3099999999999" as="sourcePoint" />
-            <mxPoint x="-130" y="319" as="targetPoint" />
+            <mxPoint x="-120" y="319" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O3loq960kx7oj_ujVzjf-86" value=":AgentDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="O3loq960kx7oj_ujVzjf-86" value="&lt;b&gt;:TSccAgentDao&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFCC99;" parent="1" vertex="1">
           <mxGeometry x="1633" y="110" width="100" height="310" as="geometry" />
         </mxCell>
         <mxCell id="O3loq960kx7oj_ujVzjf-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="O3loq960kx7oj_ujVzjf-86" vertex="1">
@@ -78,10 +54,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O3loq960kx7oj_ujVzjf-90" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.052;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="O3loq960kx7oj_ujVzjf-78" target="O3loq960kx7oj_ujVzjf-82" edge="1">
+        <mxCell id="O3loq960kx7oj_ujVzjf-90" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.052;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="O3loq960kx7oj_ujVzjf-78" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1510" y="390" as="sourcePoint" />
-            <mxPoint x="1390" y="390" as="targetPoint" />
+            <mxPoint x="1320" y="410" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1330" y="410" />
             </Array>
@@ -92,6 +68,27 @@
         </mxCell>
         <mxCell id="O3loq960kx7oj_ujVzjf-92" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;List&amp;lt;TSccAgentResult&amp;gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1150" y="404.31" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RWPz5vOjdziKGcLM4ErC-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.167;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="O3loq960kx7oj_ujVzjf-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="212" as="sourcePoint" />
+            <mxPoint x="1510" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWPz5vOjdziKGcLM4ErC-2" value="search()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="190" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-79" value="search()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.103;exitY=0.485;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="O3loq960kx7oj_ujVzjf-78">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1515" y="310" as="sourcePoint" />
+            <mxPoint x="1680" y="312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3loq960kx7oj_ujVzjf-80" value="&amp;nbsp;List&amp;lt;TSccAgentResult&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.29;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="O3loq960kx7oj_ujVzjf-78" source="O3loq960kx7oj_ujVzjf-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1670" y="390" as="sourcePoint" />
+            <mxPoint x="1530" y="390" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
